@@ -11,20 +11,78 @@
 </head>
 
 <body class="gradient">
-    <nav></nav>
-    <div class="container mx-auto  min-h-screen ">
+
+    <div class="bg-[#CAE7B9] w-50 h-70 absolute right-12 top-5 drop-shadow-md">
+
+        <div class="p-2">
+            <span class=" font-medium">16.1. Taller: APIs
+            </span>
+            <ul class="underline underline-offset-4 italic p-1">
+                <li>
+                    Alison Gonzalez
+                </li>
+                <li>
+                    Grupo 295
+                </li>
+                <li>
+                    Jóvenes a Programar
+                </li>
+                <li>
+                    2024
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex col justify-end absolute top-2 right-10 drop-shadow-md">
+        <img src="img/fluent-emoji_pushpin (1).svg" alt="Pin rojo" srcset="">
+    </div>
+
+
+    <div class="container mx-auto min-h-screen px-4">
         <div class="mb-8 mt-20">
             <h1 class="text-8xl font-mono font-black">Meme Search</h1>
         </div>
 
-        <div class="max-w-lg mx-auto my-12">
-            <input type="text" name="search" id="searcher" placeholder="BUSCA TU MEME AQUÍ" 
-            class="placeholder:font-thin placeholder:text-center placeholder:text-lg rounded-full border-solid border-black border-4 py-1 w-full "/>
+
+
+        <div class="max-w-lg mx-auto my-12 relative">
+            <input type="text" name="search" id="searcher" placeholder="BUSCA TU MEME AQUÍ"
+                class="placeholder:font-thin placeholder:text-center placeholder:text-lg rounded-full border-solid border-black border-4 py-1 w-full px-4" />
+            <div class="absolute -top-8 left-5 flex items-center justify-center h-full">
+                <img class="block w-16"
+                    src="https://media.giphy.com/media/ROh2r1sJt5oU2X2Voq/giphy.gif?cid=790b761108c20f9537ea85db4942852f57c2696b26d5d137&ep=v1_user_favorites&rid=giphy.gif&ct=s"
+                    alt="titi">
+            </div>
+            <div class="absolute -top-9 right-12 flex items-center justify-center h-full">
+                <img class="block w-11"
+                    src="https://media.giphy.com/media/h1TLEeCwDLw4g/giphy.gif?cid=ecf05e474pe5vhdiizj30fr255ucq3keliapvb97bn0vqp3q&ep=v1_gifs_related&rid=giphy.gif&ct=s"
+                    alt="titi">
+            </div>
         </div>
 
         <div id="filters"></div>
 
-        <div id="container-images"></div>
+        <div class="w-40 absolute right-5 bottom-12">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDYzYWY5M2M0YmZiMGUxN2E2NjhkYzBkYjhkYjNmM2FjY2YxZmQ2ZiZlcD12MV91c2VyX2Zhdm9yaXRlcyZjdD1z/AyJDFc2GQAim7xskMz/giphy.gif"
+                alt="Carita feliz" srcset="">
+        </div>
+        <div class="w-20 absolute left-10 bottom-80">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDYzYWY5M2M0YmZiMGUxN2E2NjhkYzBkYjhkYjNmM2FjY2YxZmQ2ZiZlcD12MV91c2VyX2Zhdm9yaXRlcyZjdD1z/eWNtKi3xWBqU0xGVn7/giphy.gif"
+                alt="pokebola" srcset="">
+        </div>
+        <div class="w-60 absolute right-5  top-">
+            <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWQ5ZXQxZ3ZjemdobHc5Mm56cGM5ZnhvYTY1emtkMXBzaGNzMDNhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mTs11L9uuyGiI/giphy.gif"
+                alt="nyancat" srcset="">
+        </div>
+        <div class="w-40 absolute left-10 bottom-10">
+            <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWxlZWFyaGdzM3A1N2ttNmJ2dGt4am9idmM2cTJqeGVxNW5sejEzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nFhsiI61KTgExVrRyB/giphy-downsized-large.gif"
+                alt="mapache pedro" srcset="">
+        </div>
+
+        <div id="container-images" class="grid grid-cols-3 gap-2">
+
+        </div>
+
     </div>
 </body>
 
